@@ -1,0 +1,14 @@
+Package: demoPackage
+Title: A Package for Demoing R Packge Building
+Version: 0.0.1.9000
+Authors@R: 
+    person("Nicolas", "Attalides", , "nicolas.attalides@gmail.com", role = c("aut", "cre"))
+Description: This package is developed in order to show how to build Packages in R.
+    It is a fun project!
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
